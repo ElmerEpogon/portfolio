@@ -90,6 +90,8 @@ main .img-profile img {
 }
 
 @media (max-width: 992px) {
+
+    /* Main  */
     main .img-profile img {
         width: 100vw !important;
     }
