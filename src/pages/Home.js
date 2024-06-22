@@ -15,7 +15,7 @@ function Home() {
                         </div>
                         
                         <div className="col-lg-6 order-1 order-lg-2 img-profile ">
-                        <img src={profile} className="img-fluid rounded-5 border" alt="Elmer Epogon Profile"/>
+                        <img src={profile} className="img-fluid rounded-5 border" alt="Elmer Epogon Profile "/>
                         </div>
                     </div>
                 </div>
