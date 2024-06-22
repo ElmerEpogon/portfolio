@@ -53,6 +53,50 @@ main .img-profile img {
     float: right;
 }
 
+#projects {
+    background: #53535316;
+}
+
+.transform-image {
+    width: 70%;
+    transition: transform 1.5s ease-in-out;
+}
+
+.transform-image:hover {
+    transform: scale(1.4);
+}
+
+.fs-10 {
+    font-size: 8vw;
+    line-height: 1;
+}
+
+.view-project {
+    font-size: 2vw !important;
+}
+
+.bold-700 {
+    font-weight: 700;
+}
+
+.text-title {
+    margin: -30px 0 !important;
+    font-size: 3vw !important;
+}
+
+.text-title-1 {
+    margin: -30px 0 0 -20px !important;
+    font-size: 2vw !important;
+}
+
+.mt-11 {
+    margin-top: 20px !important;
+}
+
+.mt-12 {
+    margin-top: 250px !important;
+}
+
 @media (max-width: 768px) {
 
     /* Header  */
@@ -87,12 +131,85 @@ main .img-profile img {
         padding: 5px 20px !important;
     }
 
+    .view-project {
+        font-size: 5vw !important;
+    }
+
+    main .card {
+        padding-top: 0 !important;
+    }
+
+    .mt-10 {
+        padding-top: 0px !important;
+        margin-top: 10px !important;
+    }
+
+    main .img-profile img {
+        margin-top: 0 !important;
+        width: 100vw !important;
+    }
+
+    main .img-profile {
+        margin-top: 0 !important;
+    }
+
+    .text-title {
+        margin: -30px 0 !important;
+        font-size: 4.5vw !important;
+    }
+
+    .text-title-1 {
+        margin: -30px 0 0 -20px !important;
+        font-size: 3vw !important;
+    }
+
+    .mt-12 {
+        margin-top: 0 !important;
+    }
+
 }
 
 @media (max-width: 992px) {
 
     /* Main  */
+    main .card {
+        padding-top: 0 !important;
+    }
+
+    .mt-10 {
+        padding-top: 0px !important;
+        margin-top: 10px !important;
+    }
+
     main .img-profile img {
+        margin-top: 0 !important;
         width: 100vw !important;
+    }
+
+    .view-project {
+        font-size: 5vw !important;
+    }
+
+    .transform-image {
+        width: 110%;
+        transition: transform 1.5s ease-in-out;
+    }
+
+    .transform-image:hover {
+        transform: scale(1.4);
+    }
+
+    .text-title {
+        margin: -30px 0 !important;
+        font-size: 4.5vw !important;
+    }
+
+    .text-title-1 {
+        margin: -30px 0 0 -20px !important;
+        font-size: 3vw !important;
+    }
+
+    .mt-12 {
+        margin-top: 0 !important;
     }
 }
