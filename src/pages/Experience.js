@@ -2,7 +2,14 @@ function Experience() {
     return(
         <main>
             <div className="container py-2">
-                <p>content</p>
+            </div>
+            <div id='experience' >
+                <div className='container px-4 pt-5'>
+                    <div className="row">
+                        <div className="col">first col</div>
+                        <div className="col">second col</div>
+                    </div>
+                </div>
             </div>
        </main>
     );

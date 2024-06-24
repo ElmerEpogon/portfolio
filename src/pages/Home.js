@@ -10,9 +10,9 @@ function Home() {
                     <div className="row g-5 mt-10">
                         <div className="col-lg-6 order-2 order-lg-1">
                             <div className="card-body">
-                                <h5 className="card-title mt-12"><b className='text-black fw-bold'>Elmer Epogon</b>-IT Graduates</h5>
-                                <p className="card-text"> Passionate about Software Development and Innovative Tech Solutions, eager to apply my skills to real-world challenges.</p>
-                                <p className="card-text"><small className="text-body-secondary"></small></p>
+                                <h3 className="card-title mt-12"><b className='text-black fw-bold'>Elmer Epogon</b>-IT Graduates</h3>
+                                <h4 className="card-text"> Passionate about Software Development and Innovative Tech Solutions, eager to apply my skills to real-world challenges.</h4>
+                                <h4 className="card-text"><small className="text-body-secondary"></small></h4>
                             </div>
                         </div>
                         

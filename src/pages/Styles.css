@@ -45,6 +45,7 @@ nav .container {
 }
 
 /* Main */
+
 main .container {
     max-width: 72rem;
 }
@@ -53,7 +54,11 @@ main .img-profile img {
     float: right;
 }
 
-#projects {
+#projects,
+#about,
+#experience,
+#contact,
+#project {
     background: #53535316;
 }
 
@@ -97,6 +102,74 @@ main .img-profile img {
     margin-top: 250px !important;
 }
 
+
+.text-justify {
+    text-align: justify !important;
+}
+
+
+/* #about ul {
+    font-size: 1.5vw;
+    font-weight: 400;
+    list-style: none !important;
+    padding-left: 0 !important;
+}
+
+#about ul li::before {
+    font-size: 2vw;
+    content: '→';
+    padding-right: 8px;
+} */
+
+
+
+#about ul {
+    font-size: 1.5vw;
+    list-style: none !important;
+    padding-left: 0 !important;
+}
+
+#about ul li {
+    position: relative;
+    padding-bottom: 5px;
+    transition: color 0.3s ease;
+}
+
+#about ul li::before {
+    font-size: 2vw;
+    content: '→';
+    padding-right: 8px;
+}
+
+#about ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: grey;
+    transition: width 0.3s ease;
+}
+
+#about ul li a:hover::after {
+    width: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile view  */
 @media (max-width: 768px) {
 
     /* Header  */
@@ -167,8 +240,22 @@ main .img-profile img {
         margin-top: 0 !important;
     }
 
+
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* tablet view  */
 @media (max-width: 992px) {
 
     /* Main  */
@@ -212,4 +299,7 @@ main .img-profile img {
     .mt-12 {
         margin-top: 0 !important;
     }
+
+
+
 }
