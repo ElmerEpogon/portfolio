@@ -3,7 +3,7 @@ function About() {
     return(
         <main>
             <div className="container py-2">
-                <p className="text-base text-600 fs-10 fw-bold">About Me</p>
+                <p className="text-base fs-10 fw-bold">About Me</p>
             </div>
             <div id='about'>
                 <div className="container">
@@ -24,7 +24,6 @@ function About() {
                                 </ul>
                                 <h3 className="text-600 fw-bold mt-5">Want to Hire Me as a Freelancer?</h3> 
                                 <p className="fs-4 text-justify pe-5">
-                                    {/* You can send me an <a href="mailto:elmerbaldzepogon@gmail.com">email</a> and I'll get back to you soon. */}
                                     You can send me an <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzDQqQMjjqPJkmLLgNhqPMLhpgpfHRNgxQgfXfCjbFmqWphwlnTgsxmcSzlFjrfWHFfWkTq" target="_blank" rel="noreferrer">email</a> and I'll get back to you soon.
                                 </p>
                                 <h3 className="text-600 fw-bold mt-5">Want to ask Something?</h3> 
