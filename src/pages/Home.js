@@ -53,16 +53,6 @@ function Home() {
                                 </div>
                             </a>
                         </div>
-                        <div className='col bg-dark mt-4 overflow-hidden position-relative'>
-                            <a href='https://elmerepogon.github.io/' target='_blank' rel="noreferrer">
-                                <div className='p-5 position-absolute top-25 start-25'>
-                                    <h2 className='text-white fw-bold text-title-1'><i>I</i>-CodeHELP</h2>
-                                </div>
-                                <div className='project-image '>
-                                    <img src={webicodehelp}  className='transform-image float-end p-5' alt="I-CodeHELP" />
-                                </div>
-                            </a>
-                        </div>
                     </div>
                 </div>
             </div>

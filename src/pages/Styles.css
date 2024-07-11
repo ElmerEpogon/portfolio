@@ -72,7 +72,7 @@ main .img-profile img {
 
 .fs-10 {
     font-size: 8vw;
-    line-height: 1;
+    line-height: 1.2 !important;
 }
 
 .view-project {
